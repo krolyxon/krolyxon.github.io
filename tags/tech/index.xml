@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>tech on Krolyxon&#39;s webpage</title>
+    <link>https://krolyxon.github.io/tags/tech/</link>
+    <description>Recent content in tech on Krolyxon&#39;s webpage</description>
+    <image>
+      <title>Krolyxon&#39;s webpage</title>
+      <url>https://krolyxon.github.io/122</url>
+      <link>https://krolyxon.github.io/122</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 31 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://krolyxon.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to boot a computer without pressing power button</title>
+      <link>https://krolyxon.github.io/blog/turning-on-pc-without-power-button/</link>
+      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://krolyxon.github.io/blog/turning-on-pc-without-power-button/</guid>
+      <description>So recently, my computer&amp;rsquo;s power button stopped working. i dont know what exactly happened to it, but it just stopped working. now i was completely unable to boot my PC. i spent whole day without my computer, thinking i would take it to a computer technician and fix it the next day. but just for the sake of trying out, i tried figuring some way out myself. I opened my PC&amp;rsquo;s cabinate and searched for the cable which connects the motherboard and the power button(POWER SW cable).</description>
+    </item>
+    
+  </channel>
+</rss>

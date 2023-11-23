@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogs on Krolyxon&#39;s webpage</title>
+    <link>https://krolyxon.github.io/blog/</link>
+    <description>Recent content in Blogs on Krolyxon&#39;s webpage</description>
+    <image>
+      <title>Krolyxon&#39;s webpage</title>
+      <url>https://krolyxon.github.io/122</url>
+      <link>https://krolyxon.github.io/122</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://krolyxon.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Syncing keepass database between android and desktop with rsync</title>
+      <link>https://krolyxon.github.io/blog/sync-keepass-database/</link>
+      <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://krolyxon.github.io/blog/sync-keepass-database/</guid>
+      <description>Introduction to keepass Everyone should use password managers, because remembering unique passwords is difficult. There are many great password FOSS password managers such as bitwarden, keepass, keepassxc etc. I wouldnt recommend using bitwarden because its cloud based, Your password database is being stored in cloud, and it makes me really paranoid. because there are thousands of users using it, so a lot of hackers trying to hack bitwarden&amp;rsquo;s server. bitwarden allows you to self-host it, so you can host it in your own server.</description>
+    </item>
+    
+    <item>
+      <title>How to boot a computer without pressing power button</title>
+      <link>https://krolyxon.github.io/blog/turning-on-pc-without-power-button/</link>
+      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://krolyxon.github.io/blog/turning-on-pc-without-power-button/</guid>
+      <description>So recently, my computer&amp;rsquo;s power button stopped working. i dont know what exactly happened to it, but it just stopped working. now i was completely unable to boot my PC. i spent whole day without my computer, thinking i would take it to a computer technician and fix it the next day. but just for the sake of trying out, i tried figuring some way out myself. I opened my PC&amp;rsquo;s cabinate and searched for the cable which connects the motherboard and the power button(POWER SW cable).</description>
+    </item>
+    
+    <item>
+      <title>Lineage OS 19 on Moto g60</title>
+      <link>https://krolyxon.github.io/blog/lineageos-on-motorola/</link>
+      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://krolyxon.github.io/blog/lineageos-on-motorola/</guid>
+      <description>&amp;lsquo;Clean&amp;rsquo; Android experience As i have said in my home page, i dont use cell phones that much but i do own a moto g60, because it has become impossible to live without a cell phone in this modern era.
+The reason i chose to buy a motorola phone instead of those sh*tty compenies like xiaomi, vivo, oppo etc. was because my friend (well i dont have any, its just a ehh friend not friend friend) told me that Motorola phones are &amp;lsquo;privacy&amp;rsquo; friendly and provide clean android experience.</description>
+    </item>
+    
+    <item>
+      <title>First Blog</title>
+      <link>https://krolyxon.github.io/blog/first-blog/</link>
+      <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://krolyxon.github.io/blog/first-blog/</guid>
+      <description>Today i am writing my first blog ever how do i feel while writing my first blog? Feels good man, very good. I hope i will be consistent on this site, and get rid of this bad habit of procastinating every fucking thing. some rusty code :) fn main() { println!(&amp;#34;Hello World&amp;#34;) println!(&amp;#34;This is Krolyxon, i am from earth.&amp;#34;) println!(&amp;#34;visit /contact for contact info&amp;#34;) } </description>
+    </item>
+    
+  </channel>
+</rss>
