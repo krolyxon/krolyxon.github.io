@@ -11,7 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Jun 2024 17:42:07 +0530</lastBuildDate><atom:link href="https://krolyxon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jun 2024 19:38:50 +0530</lastBuildDate><atom:link href="https://krolyxon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rmptui - MPD client in Rust</title>
+      <link>https://krolyxon.github.io/blog/rmptui/</link>
+      <pubDate>Sun, 02 Jun 2024 19:38:50 +0530</pubDate>
+      
+      <guid>https://krolyxon.github.io/blog/rmptui/</guid>
+      <description>How it all began This is something that i have been working on for last couple of weeks. rmptui is a tui music player whichworks with MPD (Music Player Daemon).
+I had decided to make a music player in rust in the May of 2023, but i never got around to it. It was two months ago when i actually started working on it, because i wanted to learn rust.</description>
+    </item>
+    
     <item>
       <title>Cpu Manufacturing Is Just Magic For Me</title>
       <link>https://krolyxon.github.io/blog/cpu-manufacturing-is-magic/</link>
