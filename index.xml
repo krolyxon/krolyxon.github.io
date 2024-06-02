@@ -99,5 +99,14 @@ The reason i chose to buy a motorola phone instead of those sh*tty compenies lik
       <description>Today i am writing my first blog ever how do i feel while writing my first blog? Feels good man, very good. I hope i will be consistent on this site, and get rid of this bad habit of procastinating every fucking thing. some rusty code :) fn main() { println!(&amp;#34;Hello World&amp;#34;) println!(&amp;#34;This is Krolyxon, i am from earth.&amp;#34;) println!(&amp;#34;visit /contact for contact info&amp;#34;) } </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://krolyxon.github.io/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krolyxon.github.io/links/</guid>
+      <description>Rust Rust exercises - 100 Exercises to learn Rust. Rust API guidelines - Set of recommendations to design and present Rust APIs. Rust Design Patterns Development CLI Guidelines - Set of recommendations to design and present CLI tools. CS CP Algorithms DSA List - List of leetcode problems related to DSA Others HackerNews PerplexityAI - AI search engine Piracy 1377x.to [Solidtorrent] pdfdrive Annas Archive - Probably the best site to download books Piracy Megathread DoubleDouble - Download music directly from Spotify, Apple Music etc.</description>
+    </item>
+    
   </channel>
 </rss>
