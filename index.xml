@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Jun 2024 19:38:50 +0530</lastBuildDate><atom:link href="https://krolyxon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Sep 2024 20:02:51 +0530</lastBuildDate><atom:link href="https://krolyxon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Switched to Nvchad</title>
+      <link>https://krolyxon.github.io/blog/switched-to-nvchad/</link>
+      <pubDate>Mon, 30 Sep 2024 20:02:51 +0530</pubDate>
+      
+      <guid>https://krolyxon.github.io/blog/switched-to-nvchad/</guid>
+      <description>I officially switched to NvChad Throughout my journey of using Neovim, i always avoided using a pre-built config or any distribution of neovim such as LunarVim or AtroVim. I felt pride in building my own configuration. But, after spending countless amount of painful hours fixing things manually when some plugin decides to make some breaking changes out of nowhere. I finally decided i would just switch to a pre-built config like Lazyvim or NvChad.</description>
+    </item>
+    
     <item>
       <title>Rmptui - MPD client in Rust</title>
       <link>https://krolyxon.github.io/blog/rmptui/</link>
