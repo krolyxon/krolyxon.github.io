@@ -11,7 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 30 Sep 2024 20:02:51 +0530</lastBuildDate><atom:link href="https://krolyxon.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Oct 2024 13:56:10 +0530</lastBuildDate><atom:link href="https://krolyxon.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Switched to Brave</title>
+      <link>https://krolyxon.github.io/blog/switched-to-brave/</link>
+      <pubDate>Thu, 10 Oct 2024 13:56:10 +0530</pubDate>
+      
+      <guid>https://krolyxon.github.io/blog/switched-to-brave/</guid>
+      <description>I switched to Brave Browser from Librewolf Alright i have been making alot of switches these days, first it was switching to NvChad now this. I previously used Librewolf, which was a more privacy focused browser based on Firefox, and to be honest it worked quite well. It supported all the extensions/addons i needed, it had firefox sync, and the overall experience was nice.
+One thing that was bugging me was performance, previously i was unaware that librewolf performed worse compared to other chromium based browser.</description>
+    </item>
+    
     <item>
       <title>Switched to Nvchad</title>
       <link>https://krolyxon.github.io/blog/switched-to-nvchad/</link>
