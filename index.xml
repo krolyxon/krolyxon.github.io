@@ -4,139 +4,259 @@
     <title>Krolyxon&#39;s webpage</title>
     <link>https://krolyxon.github.io/</link>
     <description>Recent content on Krolyxon&#39;s webpage</description>
-    <image>
-      <title>Krolyxon&#39;s webpage</title>
-      <url>https://krolyxon.github.io/122</url>
-      <link>https://krolyxon.github.io/122</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Oct 2024 13:56:10 +0530</lastBuildDate><atom:link href="https://krolyxon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Dec 2024 20:12:28 +0530</lastBuildDate>
+    <atom:link href="https://krolyxon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abandoning Music</title>
+      <link>https://krolyxon.github.io/blog/abandoning-music/</link>
+      <pubDate>Mon, 16 Dec 2024 20:12:28 +0530</pubDate>
+      <guid>https://krolyxon.github.io/blog/abandoning-music/</guid>
+      <description>&lt;p&gt;Ladies and Gentlemen it is with great pleasure to inform all of you that i have finally decided to get rid of all the music from my life.&lt;/p&gt;
+&lt;h2 id=&#34;my-thoughts-on-music&#34;&gt;My thoughts on Music&lt;/h2&gt;
+&lt;p&gt;I Love music. It can be a great tool if you use it in your life just to entertain yourself once in a while and relax. But for me, the story is quite different, lets start with it.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Switched to Brave</title>
       <link>https://krolyxon.github.io/blog/switched-to-brave/</link>
       <pubDate>Thu, 10 Oct 2024 13:56:10 +0530</pubDate>
-      
       <guid>https://krolyxon.github.io/blog/switched-to-brave/</guid>
-      <description>I switched to Brave Browser from Librewolf Alright i have been making alot of switches these days, first it was switching to NvChad now this. I previously used Librewolf, which was a more privacy focused browser based on Firefox, and to be honest it worked quite well. It supported all the extensions/addons i needed, it had firefox sync, and the overall experience was nice.
-One thing that was bugging me was performance, previously i was unaware that librewolf performed worse compared to other chromium based browser.</description>
+      <description>&lt;h1 id=&#34;i-switched-to-brave-browser-from-librewolf&#34;&gt;I switched to Brave Browser from Librewolf&lt;/h1&gt;
+&lt;p&gt;Alright i have been making alot of switches these days, first it was switching to NvChad now this.
+I previously used Librewolf, which was a more privacy focused browser based on Firefox, and to be honest it worked quite well.
+It supported all the extensions/addons i needed, it had firefox sync, and the overall experience was nice.&lt;/p&gt;
+&lt;p&gt;One thing that was bugging me was performance, previously i was unaware that librewolf performed worse compared to other chromium based browser.
+I had to install a chromium based browser for my college work for some time, and there i experienced some speed, real speed.
+And i fell into the trap and now i am using a chromium based browser as my default browser. There are lots of things that i am missing from librewolf,
+such as smooth scrolling and mouse gestures (i miss them), its UI and firefox sync, but speed is something i always prioritize over anything else, so brave it is.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Switched to Nvchad</title>
       <link>https://krolyxon.github.io/blog/switched-to-nvchad/</link>
       <pubDate>Mon, 30 Sep 2024 20:02:51 +0530</pubDate>
-      
       <guid>https://krolyxon.github.io/blog/switched-to-nvchad/</guid>
-      <description>I officially switched to NvChad Throughout my journey of using Neovim, i always avoided using a pre-built config or any distribution of neovim such as LunarVim or AtroVim. I felt pride in building my own configuration. But, after spending countless amount of painful hours fixing things manually when some plugin decides to make some breaking changes out of nowhere. I finally decided i would just switch to a pre-built config like Lazyvim or NvChad.</description>
+      <description>&lt;h1 id=&#34;i-officially-switched-to-nvchad&#34;&gt;I officially switched to NvChad&lt;/h1&gt;
+&lt;p&gt;Throughout my journey of using Neovim, i always avoided using a pre-built config or any distribution of neovim such as LunarVim or AtroVim.
+I felt pride in building my own configuration. But, after spending countless amount of painful hours fixing things manually when some plugin decides to make some breaking changes out of nowhere.
+I finally decided i would just switch to a pre-built config like Lazyvim or NvChad.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rmptui - MPD client in Rust</title>
       <link>https://krolyxon.github.io/blog/rmptui/</link>
       <pubDate>Sun, 02 Jun 2024 19:38:50 +0530</pubDate>
-      
       <guid>https://krolyxon.github.io/blog/rmptui/</guid>
-      <description>How it all began This is something that i have been working on for last couple of weeks. rmptui is a tui music player whichworks with MPD (Music Player Daemon).
-I had decided to make a music player in rust in the May of 2023, but i never got around to it. It was two months ago when i actually started working on it, because i wanted to learn rust.</description>
+      <description>&lt;h2 id=&#34;how-it-all-began&#34;&gt;How it all began&lt;/h2&gt;
+&lt;p&gt;This is something that i have been working on for last couple of weeks.
+&lt;a href=&#34;https://github.com/krolyxon/rmptui&#34;&gt;rmptui&lt;/a&gt; is a tui music player whichworks with
+&lt;a href=&#34;https://www.musicpd.org/&#34;&gt;MPD&lt;/a&gt; (Music Player Daemon).&lt;/p&gt;
+&lt;p&gt;I had decided to make a music player in rust in the May of 2023, but i never got around to it.
+It was two months ago when i actually started working on it, because i wanted to learn rust.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;rmptui-v0.1.4&#34; loading=&#34;lazy&#34; src=&#34;https://krolyxon.github.io/img/rmptui-v0.1.4.png&#34;&gt;
+Above pictures shows the directory browser tab of rmptui.
+It has total three tabs:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cpu Manufacturing Is Just Magic For Me</title>
       <link>https://krolyxon.github.io/blog/cpu-manufacturing-is-magic/</link>
       <pubDate>Sun, 02 Jun 2024 17:42:07 +0530</pubDate>
-      
       <guid>https://krolyxon.github.io/blog/cpu-manufacturing-is-magic/</guid>
-      <description>Why i think that way. After watching countless amount of videos on the internet about, how Microchips/Microprocessors are manufactured. I still to this day just believe its just f*cking magic.
-I am aware of the steps and processes that are done to manufacture them, but how the hell do you even do that bro??? like how the hell do you design 11 billion semiconductors in a silicon die that is just few millimeters in diameter.</description>
+      <description>&lt;h2 id=&#34;why-i-think-that-way&#34;&gt;Why i think that way.&lt;/h2&gt;
+&lt;p&gt;After watching countless amount of videos on the internet about,
+how Microchips/Microprocessors are manufactured. I still to this day just believe its just f*cking magic.&lt;/p&gt;
+&lt;p&gt;I am aware of the steps and processes that are done to manufacture them, but
+how the hell do you even do that bro???
+like how the hell do you design 11 billion semiconductors in a silicon die that is just few millimeters in diameter.
+holy shit.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My Experience With Dopamine Detox</title>
       <link>https://krolyxon.github.io/blog/experience-with-dopamine-detox/</link>
       <pubDate>Sun, 18 Feb 2024 14:55:21 +0530</pubDate>
-      
       <guid>https://krolyxon.github.io/blog/experience-with-dopamine-detox/</guid>
-      <description>My Experience with Dopamine Detox Few days ago i came to realize that from past few months i haven&amp;rsquo;t had any creative thoughts and i hadn&amp;rsquo;t done anything new at all. It was all the same, wake up, music, watch movies, videos on youtube, consume consume&amp;hellip;.. I would spend all my day just consuming information on the internet and not doing any real work. My mind was being stimulated entire day, whether it be with music or youtube videos.</description>
+      <description>&lt;h1 id=&#34;my-experience-with-dopamine-detox&#34;&gt;My Experience with Dopamine Detox&lt;/h1&gt;
+&lt;p&gt;Few days ago i came to realize that from past few months i haven&amp;rsquo;t had any creative thoughts and i hadn&amp;rsquo;t done anything new at all. It was all the same, wake up, music, watch movies, videos on youtube, consume consume&amp;hellip;..
+I would spend all my day just consuming information on the internet and not doing any real work. My mind was being stimulated entire day, whether it be with music or youtube videos.
+i wouldn&amp;rsquo;t spend a single moment of my day without any kind of stimulation. Sleeping? just play a long youtube video and fall asleep listening to it. Getting ready for college? just play a music playlist in the background. Working out? just play workout playlist. Reading or studying a article? play Lofi music in background. this had a big impact on my creativity and thinking.
+it was depressing, because when i was younger i was one of the most creative kids among other students in school, here i am being a coomer on the internet doing nothing but consuming online media.
+I decided to work on my lifestyle, and started dopamine detox, its been a week, and today i am going to share my experience with my dopamine detox.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Got Faulty Product From Flipkart</title>
       <link>https://krolyxon.github.io/blog/got-faulty-product-from-flipkart/</link>
       <pubDate>Sat, 30 Dec 2023 16:18:25 +0530</pubDate>
-      
       <guid>https://krolyxon.github.io/blog/got-faulty-product-from-flipkart/</guid>
-      <description>Today i got a faulty 16GB ram from Flipkart. So the RAM i ordered was Crucial 16GB 3200Mhz laptop RAM. It turns out to be faulty and i cant even return it 💀.
-So here is the story in the format of 4 stages of grief :)
-Stage 1: Excitement, Happiness. it was 10 am in the morning, i was sleeping. I get a call from my mum that the RAM i ordered online has just arrived and i gotta be there to confirm the delivery and to verify that the product is right.</description>
+      <description>&lt;p&gt;Today i got a faulty 16GB ram from Flipkart.
+So the RAM i ordered was &lt;a href=&#34;https://www.flipkart.com/crucial-16gb-ddr4-3200mhz-cl22-16-gb-laptop-ct16g4sfs832a/p/itmceac5769ac001?pid=RAMGKX6ZCJPDGCTZ&amp;amp;q=crucial+16+gb+laptop+ram&amp;amp;qH=6bd7dde490d2b5bc&#34;&gt;Crucial 16GB 3200Mhz laptop RAM&lt;/a&gt;. It turns out to be faulty and i cant even return it 💀.&lt;/p&gt;
+&lt;p&gt;So here is the story in the format of 4 stages of grief :)&lt;/p&gt;
+&lt;h2 id=&#34;stage-1-excitement-happiness&#34;&gt;Stage 1: Excitement, Happiness.&lt;/h2&gt;
+&lt;p&gt;it was 10 am in the morning, i was sleeping. I get a call from my mum that the RAM i ordered online has just arrived and i gotta be there to confirm the delivery and to verify that the product is right. I woke up immediately, in a rush without fixing my bed. i ran with happiness and excitement, and full of thoughts of what i am going to do after upgrading my laptop&amp;rsquo;s ram. Confirmed the order, took the RAM, went back to my room. I was happy. I was excited.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>auto-cpufreq Is All You Need</title>
       <link>https://krolyxon.github.io/blog/auto-cpufreq-is-all-you-need/</link>
       <pubDate>Thu, 23 Nov 2023 18:34:42 +0530</pubDate>
-      
       <guid>https://krolyxon.github.io/blog/auto-cpufreq-is-all-you-need/</guid>
-      <description>Recently, i got myself a laptop (a gaming one) for college work, and the battery life was fine on windows (which it came preinstalled with) because windows by default does battery power optimizations preserve battery life. When i installed Arch Linux on it, the battery life was disappointing. On windows my laptop would last for about 3 hours and on the other hand on linux, it would barely reach 2 hours&amp;hellip;</description>
+      <description>&lt;p&gt;Recently, i got myself a laptop (a gaming one) for college work, and the battery life was fine on windows (which it came preinstalled with) because windows by default does battery power optimizations preserve battery life. When i installed Arch Linux on it, the battery life was disappointing.
+On windows my laptop would last for about 3 hours and on the other hand on linux, it would barely reach 2 hours&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Contact</title>
       <link>https://krolyxon.github.io/contact/</link>
       <pubDate>Sun, 12 Nov 2023 22:11:47 +0530</pubDate>
-      
       <guid>https://krolyxon.github.io/contact/</guid>
-      <description>How to reach me? Dont. I am bad at having conversations. If you still feel like talking with me, here are my contacts. Email: krolyxon AT tutanota DOT com. Matrix: @krolyxon:matrix.org </description>
+      <description>&lt;h3 id=&#34;how-to-reach-me&#34;&gt;How to reach me?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dont. I am bad at having conversations.&lt;/li&gt;
+&lt;li&gt;If you still feel like talking with me, here are my contacts.
+&lt;ul&gt;
+&lt;li&gt;Email: &lt;strong&gt;krolyxon AT tutanota DOT com&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Matrix: @krolyxon:matrix.org&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://krolyxon.github.io/about/</link>
       <pubDate>Sun, 12 Nov 2023 22:08:32 +0530</pubDate>
-      
       <guid>https://krolyxon.github.io/about/</guid>
-      <description>Introduction My name is Krolyxon and welcome to my website. Tinkering with GNU/Linux and FOSS Software is my hobby. I am a wannabe programmer and i love watching movies&amp;hellip; And most importantly, I Love Rust.
-&amp;ldquo;Life is hard; it&amp;rsquo;s even harder when you&amp;rsquo;re stupid.&amp;rdquo;
-- John Wayne
-Software Software Name Operating System Arch Linux Operating System (Android) Lineage OS 20.0 Text Editor Neovim Window Manager DWM Terminal Emulator Alacritty Media Player MPV Music Player Rmptui Image Viewer Nsxiv Web Browser Brave Some cool websites that i like: Dig Deeper ELDRITCHDATA hitarththummar (gtlsgamr) theooo Neovoid </description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;My name is Krolyxon and welcome to my website. Tinkering with GNU/Linux and FOSS Software is my hobby. I am a wannabe programmer and i love watching movies&amp;hellip; And most importantly, I Love Rust.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Life is hard; it&amp;rsquo;s even harder when you&amp;rsquo;re stupid.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;- John Wayne&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Software&lt;/th&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Operating System&lt;/td&gt;
+          &lt;td&gt;Arch Linux&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Operating System (Android)&lt;/td&gt;
+          &lt;td&gt;Lineage OS 20.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Text Editor&lt;/td&gt;
+          &lt;td&gt;Neovim&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Window Manager&lt;/td&gt;
+          &lt;td&gt;DWM&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Terminal Emulator&lt;/td&gt;
+          &lt;td&gt;Alacritty&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Media Player&lt;/td&gt;
+          &lt;td&gt;MPV&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Music Player&lt;/td&gt;
+          &lt;td&gt;Rmptui&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Image Viewer&lt;/td&gt;
+          &lt;td&gt;Nsxiv&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Web Browser&lt;/td&gt;
+          &lt;td&gt;Brave&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;some-cool-websites-that-i-like&#34;&gt;Some cool websites that i like:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://digdeeper.club/&#34;&gt;Dig Deeper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eldritchdata.neocities.org/&#34;&gt;ELDRITCHDATA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hitarththummar.xyz/&#34;&gt;hitarththummar (gtlsgamr)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://theooo.codeberg.page&#34;&gt;theooo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://neovoid.tk/&#34;&gt;Neovoid&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Syncing keepass database between android and desktop with rsync</title>
       <link>https://krolyxon.github.io/blog/sync-keepass-database/</link>
       <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://krolyxon.github.io/blog/sync-keepass-database/</guid>
-      <description>Introduction to keepass Everyone should use password managers, because remembering unique passwords is difficult. There are many great password FOSS password managers such as bitwarden, keepass, keepassxc etc. I wouldnt recommend using bitwarden because its cloud based, Your password database is being stored in cloud, and it makes me really paranoid. because there are thousands of users using it, so a lot of hackers trying to hack bitwarden&amp;rsquo;s server. bitwarden allows you to self-host it, so you can host it in your own server.</description>
+      <description>&lt;h1 id=&#34;introduction-to-keepass&#34;&gt;Introduction to keepass&lt;/h1&gt;
+&lt;p&gt;Everyone should use password managers, because remembering unique passwords is difficult.
+There are many great password FOSS password managers such as bitwarden, keepass, keepassxc etc.
+I wouldnt recommend using bitwarden because its cloud based,
+Your password database is being stored in cloud, and it makes me really paranoid.
+because there are thousands of users using it, so a lot of hackers trying to hack bitwarden&amp;rsquo;s server.
+bitwarden allows you to self-host it, so you can host it in your own server.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to boot a computer without pressing power button</title>
       <link>https://krolyxon.github.io/blog/turning-on-pc-without-power-button/</link>
       <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://krolyxon.github.io/blog/turning-on-pc-without-power-button/</guid>
-      <description>So recently, my computer&amp;rsquo;s power button stopped working. i dont know what exactly happened to it, but it just stopped working. now i was completely unable to boot my PC. i spent whole day without my computer, thinking i would take it to a computer technician and fix it the next day. but just for the sake of trying out, i tried figuring some way out myself. I opened my PC&amp;rsquo;s cabinate and searched for the cable which connects the motherboard and the power button(POWER SW cable).</description>
+      <description>&lt;p&gt;So recently, my computer&amp;rsquo;s power button stopped working.
+i dont know what exactly happened to it, but it just stopped working.
+now i was completely unable to boot my PC. i spent whole day without my computer,
+thinking i would take it to a computer technician and fix it the next day.
+but just for the sake of trying out, i tried figuring some way out myself.
+I opened my PC&amp;rsquo;s cabinate and searched for the cable which connects the motherboard and the power button(POWER SW cable).
+I disconnected that cable from the motherboard and took a screwdriver and then trouched it to the
+pins where the POWER SW cable was connected previously.
+Voilah! the pc booted up.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Lineage OS 19 on Moto g60</title>
       <link>https://krolyxon.github.io/blog/lineageos-on-motorola/</link>
       <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://krolyxon.github.io/blog/lineageos-on-motorola/</guid>
-      <description>&amp;lsquo;Clean&amp;rsquo; Android experience As i have said in my home page, i dont use cell phones that much but i do own a moto g60, because it has become impossible to live without a cell phone in this modern era.
-The reason i chose to buy a motorola phone instead of those sh*tty compenies like xiaomi, vivo, oppo etc. was because my friend (well i dont have any, its just a ehh friend not friend friend) told me that Motorola phones are &amp;lsquo;privacy&amp;rsquo; friendly and provide clean android experience.</description>
+      <description>&lt;h2 id=&#34;clean-android-experience&#34;&gt;&amp;lsquo;Clean&amp;rsquo; Android experience&lt;/h2&gt;
+&lt;p&gt;As i have said in my home page, i dont use cell phones that much but i do own a moto g60,
+because it has become impossible to live without a cell phone in this modern era.&lt;/p&gt;
+&lt;p&gt;The reason i chose to buy a motorola phone instead of those sh*tty compenies like xiaomi, vivo, oppo etc.
+was because my friend (well i dont have any, its just a ehh friend not friend friend) told me that Motorola phones are &amp;lsquo;privacy&amp;rsquo; friendly and provide clean android experience.
+and yeah of course, i fell for it. And let me tell you, no its no way near &amp;lsquo;privacy&amp;rsquo; friendly.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://krolyxon.github.io/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://krolyxon.github.io/links/</guid>
-      <description>Rust Rust exercises - 100 Exercises to learn Rust. Rust API guidelines - Set of recommendations to design and present Rust APIs. Rust Design Patterns Development CLI Guidelines - Set of recommendations to design and present CLI tools. CS CP Algorithms DSA List - List of leetcode problems related to DSA Others HackerNews PerplexityAI - AI search engine Piracy 1377x.to Solidtorrent pdfdrive Annas Archive - Probably the best site to download books Piracy Megathread DoubleDouble - Download music directly from Spotify, Apple Music etc.</description>
+      <description>&lt;h2 id=&#34;rust&#34;&gt;Rust&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rust-exercises.com/&#34;&gt;Rust exercises&lt;/a&gt; - 100 Exercises to learn Rust.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rust-lang.github.io/api-guidelines/&#34;&gt;Rust API guidelines&lt;/a&gt; - Set of recommendations to design and present Rust APIs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rust-unofficial.github.io/patterns/intro.html&#34;&gt;Rust Design Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;development&#34;&gt;Development&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://clig.dev/#foreword&#34;&gt;CLI Guidelines&lt;/a&gt;  - Set of recommendations to design and present CLI tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cs&#34;&gt;CS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cp-algorithms.com/&#34;&gt;CP Algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ashhad.in/list/&#34;&gt;DSA List&lt;/a&gt; - List of leetcode problems related to DSA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/news&#34;&gt;HackerNews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.perplexity.ai&#34;&gt;PerplexityAI&lt;/a&gt; - AI search engine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;piracy&#34;&gt;Piracy&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.1377x.to/&#34;&gt;1377x.to&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://solidtorrents.to/&#34;&gt;Solidtorrent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pdfdrive.com/&#34;&gt;pdfdrive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pdfdrive.com/&#34;&gt;Annas Archive&lt;/a&gt; - Probably the best site to download books&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://reddit.com/r/Piracy/wiki/megathread/books/&#34;&gt;Piracy Megathread&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://doubledouble.top/&#34;&gt;DoubleDouble&lt;/a&gt; - Download music directly from Spotify, Apple Music etc.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

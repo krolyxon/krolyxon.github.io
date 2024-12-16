@@ -4,42 +4,43 @@
     <title>Tech on Krolyxon&#39;s webpage</title>
     <link>https://krolyxon.github.io/tags/tech/</link>
     <description>Recent content in Tech on Krolyxon&#39;s webpage</description>
-    <image>
-      <title>Krolyxon&#39;s webpage</title>
-      <url>https://krolyxon.github.io/122</url>
-      <link>https://krolyxon.github.io/122</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 30 Dec 2023 16:18:25 +0530</lastBuildDate><atom:link href="https://krolyxon.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Dec 2023 16:18:25 +0530</lastBuildDate>
+    <atom:link href="https://krolyxon.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Got Faulty Product From Flipkart</title>
       <link>https://krolyxon.github.io/blog/got-faulty-product-from-flipkart/</link>
       <pubDate>Sat, 30 Dec 2023 16:18:25 +0530</pubDate>
-      
       <guid>https://krolyxon.github.io/blog/got-faulty-product-from-flipkart/</guid>
-      <description>Today i got a faulty 16GB ram from Flipkart. So the RAM i ordered was Crucial 16GB 3200Mhz laptop RAM. It turns out to be faulty and i cant even return it 💀.
-So here is the story in the format of 4 stages of grief :)
-Stage 1: Excitement, Happiness. it was 10 am in the morning, i was sleeping. I get a call from my mum that the RAM i ordered online has just arrived and i gotta be there to confirm the delivery and to verify that the product is right.</description>
+      <description>&lt;p&gt;Today i got a faulty 16GB ram from Flipkart.
+So the RAM i ordered was &lt;a href=&#34;https://www.flipkart.com/crucial-16gb-ddr4-3200mhz-cl22-16-gb-laptop-ct16g4sfs832a/p/itmceac5769ac001?pid=RAMGKX6ZCJPDGCTZ&amp;amp;q=crucial+16+gb+laptop+ram&amp;amp;qH=6bd7dde490d2b5bc&#34;&gt;Crucial 16GB 3200Mhz laptop RAM&lt;/a&gt;. It turns out to be faulty and i cant even return it 💀.&lt;/p&gt;
+&lt;p&gt;So here is the story in the format of 4 stages of grief :)&lt;/p&gt;
+&lt;h2 id=&#34;stage-1-excitement-happiness&#34;&gt;Stage 1: Excitement, Happiness.&lt;/h2&gt;
+&lt;p&gt;it was 10 am in the morning, i was sleeping. I get a call from my mum that the RAM i ordered online has just arrived and i gotta be there to confirm the delivery and to verify that the product is right. I woke up immediately, in a rush without fixing my bed. i ran with happiness and excitement, and full of thoughts of what i am going to do after upgrading my laptop&amp;rsquo;s ram. Confirmed the order, took the RAM, went back to my room. I was happy. I was excited.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>auto-cpufreq Is All You Need</title>
       <link>https://krolyxon.github.io/blog/auto-cpufreq-is-all-you-need/</link>
       <pubDate>Thu, 23 Nov 2023 18:34:42 +0530</pubDate>
-      
       <guid>https://krolyxon.github.io/blog/auto-cpufreq-is-all-you-need/</guid>
-      <description>Recently, i got myself a laptop (a gaming one) for college work, and the battery life was fine on windows (which it came preinstalled with) because windows by default does battery power optimizations preserve battery life. When i installed Arch Linux on it, the battery life was disappointing. On windows my laptop would last for about 3 hours and on the other hand on linux, it would barely reach 2 hours&amp;hellip;</description>
+      <description>&lt;p&gt;Recently, i got myself a laptop (a gaming one) for college work, and the battery life was fine on windows (which it came preinstalled with) because windows by default does battery power optimizations preserve battery life. When i installed Arch Linux on it, the battery life was disappointing.
+On windows my laptop would last for about 3 hours and on the other hand on linux, it would barely reach 2 hours&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to boot a computer without pressing power button</title>
       <link>https://krolyxon.github.io/blog/turning-on-pc-without-power-button/</link>
       <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://krolyxon.github.io/blog/turning-on-pc-without-power-button/</guid>
-      <description>So recently, my computer&amp;rsquo;s power button stopped working. i dont know what exactly happened to it, but it just stopped working. now i was completely unable to boot my PC. i spent whole day without my computer, thinking i would take it to a computer technician and fix it the next day. but just for the sake of trying out, i tried figuring some way out myself. I opened my PC&amp;rsquo;s cabinate and searched for the cable which connects the motherboard and the power button(POWER SW cable).</description>
+      <description>&lt;p&gt;So recently, my computer&amp;rsquo;s power button stopped working.
+i dont know what exactly happened to it, but it just stopped working.
+now i was completely unable to boot my PC. i spent whole day without my computer,
+thinking i would take it to a computer technician and fix it the next day.
+but just for the sake of trying out, i tried figuring some way out myself.
+I opened my PC&amp;rsquo;s cabinate and searched for the cable which connects the motherboard and the power button(POWER SW cable).
+I disconnected that cable from the motherboard and took a screwdriver and then trouched it to the
+pins where the POWER SW cable was connected previously.
+Voilah! the pc booted up.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

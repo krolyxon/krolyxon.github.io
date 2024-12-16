@@ -4,12 +4,8 @@
     <title>Categories on Krolyxon&#39;s webpage</title>
     <link>https://krolyxon.github.io/categories/</link>
     <description>Recent content in Categories on Krolyxon&#39;s webpage</description>
-    <image>
-      <title>Krolyxon&#39;s webpage</title>
-      <url>https://krolyxon.github.io/122</url>
-      <link>https://krolyxon.github.io/122</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://krolyxon.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.139.2</generator>
+    <language>en</language>
+    <atom:link href="https://krolyxon.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
