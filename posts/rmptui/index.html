@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Rmptui - MPD client in Rust :: </title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How it all began This is something that i have been working on for last couple of weeks. rmptui is a tui music player whichworks with MPD (Music Player Daemon).
+I had decided to make a music player in rust in the May of 2023, but i never got around to it. It was two months ago when i actually started working on it, because i wanted to learn rust.
+Above pictures shows the directory browser tab of rmptui. It has total three tabs:
+" />
+<meta name="keywords" content="krolyxon" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/rmptui/" />
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Rmptui - MPD client in Rust">
+<meta property="og:description" content="How it all began This is something that i have been working on for last couple of weeks. rmptui is a tui music player whichworks with MPD (Music Player Daemon).
+I had decided to make a music player in rust in the May of 2023, but i never got around to it. It was two months ago when i actually started working on it, because i wanted to learn rust.
+Above pictures shows the directory browser tab of rmptui. It has total three tabs:
+" />
+<meta property="og:url" content="/posts/rmptui/" />
+<meta property="og:site_name" content="" />
+
+  
+    <meta property="og:image" content="/favicon.ico">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2024-06-02 19:38:50 &#43;0530 IST" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+</head>
+<body class="green">
+
+
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Krolyxon
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About Me</a></li>
+        
+      
+        
+          <li><a href="/contact">Contact</a></li>
+        
+      
+        
+          <li><a href="/links">Links</a></li>
+        
+      
+        
+          <li><a href="/tags">Tags</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+      
+        
+          <li><a href="/about" >About Me</a></li>
+        
+      
+        
+          <li><a href="/contact" >Contact</a></li>
+        
+      
+        
+          <li><a href="/links" >Links</a></li>
+        
+      
+        
+          <li><a href="/tags" >Tags</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/rmptui/">Rmptui - MPD client in Rust</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2024-06-02[Updated::2024-06-02]</time>
+    
+<span class="post-reading-time">2 min read (310 words)</span></div>
+
+  
+  
+
+
+
+  
+    <div class="table-of-contents">
+      <h2>
+        Table of Contents
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#how-it-all-began">How it all began</a></li>
+    <li><a href="#crates-used">Crates Used</a></li>
+    <li><a href="#state-of-rmptui-right-now-2024-06-02">State of Rmptui right now (2024-06-02)</a></li>
+    <li><a href="#future-plans">Future Plans</a></li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <h2 id="how-it-all-began">How it all began<a href="#how-it-all-began" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>This is something that i have been working on for last couple of weeks.
+<a href="https://github.com/krolyxon/rmptui">rmptui</a> is a tui music player whichworks with
+<a href="https://www.musicpd.org/">MPD</a> (Music Player Daemon).</p>
+<p>I had decided to make a music player in rust in the May of 2023, but i never got around to it.
+It was two months ago when i actually started working on it, because i wanted to learn rust.</p>
+<p><img src="/img/rmptui-v0.1.4.png" alt="rmptui-v0.1.4">
+Above pictures shows the directory browser tab of rmptui.
+It has total three tabs:</p>
+<blockquote>
+<ol>
+<li>Queue - Shows current playing queue</li>
+<li>Directory browser - Lets you explore your music library</li>
+<li>Playlists - Shows your playlists</li>
+</ol></blockquote>
+<p>Get more info about keymaps from <a href="https://github.com/krolyxon/rmptui?tab=readme-ov-file#keys">Github Readme</a></p>
+<h2 id="crates-used">Crates Used<a href="#crates-used" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>So rmptui uses <a href="https://crates.io/crates/mpd">rust-mpd</a> crate to interact with Music Player Daemon.
+This crate is no longer maintained it seems, a lot of the commands are ambiguous,
+and it was relatively annoying to work with it.
+The better approach would be to just use TCP sockets, but anyways i found my ways to
+work with this crate anyways.</p>
+<p>It uses <a href="https://crates.io/crates/ratatui">ratatui</a> for the TUI (Terminal User Interface)
+which is a pretty lightweight and intuitive library to cook TUIs.</p>
+<h2 id="state-of-rmptui-right-now-2024-06-02">State of Rmptui right now (2024-06-02)<a href="#state-of-rmptui-right-now-2024-06-02" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>It is still in its early development days, where a lot of bugs are expected, so i kindly request
+everyone to report bugs on <a href="https://github.com/krolyxon/rmptui/issues">Github Issues</a>, so i can fix them.
+Currently it is in its version 0.1.4.</p>
+<h2 id="future-plans">Future Plans<a href="#future-plans" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Right now rmptui is not asynchronous and is single threaded, which is really bad for a music player
+that interacts with a server and handles keybinds and renders TUI at the same time.
+I also plan to add support for lyrics fetching in future.
+Also the codebase is a giant clusterf*ck, so i hope to organize that as well.</p>
+<p>Last but not the least, release a stable v1.0.0 and public it on crates.io</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="/posts/switched-to-nvchad/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Switched to Nvchad</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="/posts/cpu-manufacturing-is-magic/">
+                <span class="button__text">Cpu Manufacturing Is Just Magic For Me</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© 2025 by krolyxon</span>
+    
+      <span>:: <a href="https://github.com/mirus-ua/hugo-theme-re-terminal" target="_blank">Theme</a> made by <a href="https://github.com/mirus-ua" target="_blank">Mirus</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

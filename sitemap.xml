@@ -2,65 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://krolyxon.github.io/blog/abandoning-music/</loc>
+    <loc>/</loc>
     <lastmod>2024-12-16T20:12:28+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/blog/</loc>
+    <loc>/posts/abandoning-music/</loc>
     <lastmod>2024-12-16T20:12:28+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/</loc>
+    <loc>/tags/life/</loc>
     <lastmod>2024-12-16T20:12:28+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/tags/life/</loc>
+    <loc>/posts/</loc>
     <lastmod>2024-12-16T20:12:28+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2024-12-16T20:12:28+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/blog/switched-to-brave/</loc>
+    <loc>/posts/switched-to-brave/</loc>
     <lastmod>2024-10-10T13:56:10+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/blog/switched-to-nvchad/</loc>
+    <loc>/posts/switched-to-nvchad/</loc>
     <lastmod>2024-09-30T20:02:51+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/blog/rmptui/</loc>
+    <loc>/posts/rmptui/</loc>
     <lastmod>2024-06-02T19:38:50+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/blog/cpu-manufacturing-is-magic/</loc>
+    <loc>/posts/cpu-manufacturing-is-magic/</loc>
     <lastmod>2024-06-02T17:42:07+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/blog/experience-with-dopamine-detox/</loc>
+    <loc>/posts/experience-with-dopamine-detox/</loc>
     <lastmod>2024-02-18T14:55:21+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/blog/got-faulty-product-from-flipkart/</loc>
+    <loc>/posts/got-faulty-product-from-flipkart/</loc>
     <lastmod>2023-12-30T16:18:25+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/tags/personal/</loc>
+    <loc>/tags/personal/</loc>
     <lastmod>2023-12-30T16:18:25+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/tags/tech/</loc>
+    <loc>/tags/tech/</loc>
     <lastmod>2023-12-30T16:18:25+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/blog/auto-cpufreq-is-all-you-need/</loc>
+    <loc>/posts/auto-cpufreq-is-all-you-need/</loc>
     <lastmod>2023-11-23T18:34:42+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/contact/</loc>
-    <lastmod>2023-11-12T22:11:47+05:30</lastmod>
+    <loc>/contact/</loc>
+    <lastmod>2024-04-18T11:28:14+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/about/</loc>
-    <lastmod>2023-11-12T22:08:32+05:30</lastmod>
+    <loc>/about/</loc>
+    <lastmod>2024-10-10T14:06:26+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/blog/sync-keepass-database/</loc>
+    <loc>/posts/sync-keepass-database/</loc>
     <lastmod>2022-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/blog/turning-on-pc-without-power-button/</loc>
+    <loc>/posts/turning-on-pc-without-power-button/</loc>
     <lastmod>2022-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/blog/lineageos-on-motorola/</loc>
+    <loc>/posts/lineageos-on-motorola/</loc>
     <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/links/</loc>
+    <loc>/links/</loc>
+    <lastmod>2024-06-18T17:50:59+05:30</lastmod>
   </url><url>
-    <loc>https://krolyxon.github.io/categories/</loc>
+    <loc>/categories/</loc>
   </url>
 </urlset>

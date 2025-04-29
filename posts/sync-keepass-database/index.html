@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Syncing keepass database between android and desktop with rsync :: </title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Introduction to keepass Everyone should use password managers, because remembering unique passwords is difficult. There are many great password FOSS password managers such as bitwarden, keepass, keepassxc etc. I wouldnt recommend using bitwarden because its cloud based, Your password database is being stored in cloud, and it makes me really paranoid. because there are thousands of users using it, so a lot of hackers trying to hack bitwarden&rsquo;s server. bitwarden allows you to self-host it, so you can host it in your own server.
+" />
+<meta name="keywords" content="krolyxon" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/sync-keepass-database/" />
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Syncing keepass database between android and desktop with rsync">
+<meta property="og:description" content="Introduction to keepass Everyone should use password managers, because remembering unique passwords is difficult. There are many great password FOSS password managers such as bitwarden, keepass, keepassxc etc. I wouldnt recommend using bitwarden because its cloud based, Your password database is being stored in cloud, and it makes me really paranoid. because there are thousands of users using it, so a lot of hackers trying to hack bitwarden&rsquo;s server. bitwarden allows you to self-host it, so you can host it in your own server.
+" />
+<meta property="og:url" content="/posts/sync-keepass-database/" />
+<meta property="og:site_name" content="" />
+
+  
+    <meta property="og:image" content="/favicon.ico">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2022-09-18 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+</head>
+<body class="green">
+
+
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Krolyxon
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About Me</a></li>
+        
+      
+        
+          <li><a href="/contact">Contact</a></li>
+        
+      
+        
+          <li><a href="/links">Links</a></li>
+        
+      
+        
+          <li><a href="/tags">Tags</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+      
+        
+          <li><a href="/about" >About Me</a></li>
+        
+      
+        
+          <li><a href="/contact" >Contact</a></li>
+        
+      
+        
+          <li><a href="/links" >Links</a></li>
+        
+      
+        
+          <li><a href="/tags" >Tags</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/sync-keepass-database/">Syncing keepass database between android and desktop with rsync</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2022-09-18[Updated::2022-09-18]</time>
+    
+<span class="post-reading-time">3 min read (468 words)</span></div>
+
+  
+  
+
+
+
+  
+    <div class="table-of-contents">
+      <h2>
+        Table of Contents
+      </h2>
+      <nav id="TableOfContents"></nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <h1 id="introduction-to-keepass">Introduction to keepass<a href="#introduction-to-keepass" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>Everyone should use password managers, because remembering unique passwords is difficult.
+There are many great password FOSS password managers such as bitwarden, keepass, keepassxc etc.
+I wouldnt recommend using bitwarden because its cloud based,
+Your password database is being stored in cloud, and it makes me really paranoid.
+because there are thousands of users using it, so a lot of hackers trying to hack bitwarden&rsquo;s server.
+bitwarden allows you to self-host it, so you can host it in your own server.</p>
+<p>But you know, your boy is still paranoid. So i will go with keepassxc because its completely offlilne.
+You can read the installation instructions and read more about it on <a href="https://keepassxc.org">keepassxc.org</a>
+However, we are going focus more about how to sync the password database created from keepassxc on
+your desktop and cellphone(android).</p>
+<p>After you are done installing keepassxc on your desktop,
+install <a href="https://www.keepassdx.com/">keepassdx</a> on your cellphone,
+To access your encrypted password database from your cellphone.</p>
+<h1 id="sync-the-database-between-both-devices">Sync the database between both devices.<a href="#sync-the-database-between-both-devices" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<ol>
+<li>Install <a href="https://rsync.samba.org/">rsync</a> and ssh(obviously&hellip;) on your desktop.</li>
+<li>Install termux on your cellphone.</li>
+<li>install <code>rsync</code> &amp; <code>openssh</code> on termux by running <code>pkg install openssh rsync</code></li>
+<li>start ssh server on termux by running <code>sshd</code></li>
+<li>get your local ip adress of your cellphone by running <code>ifconfig</code></li>
+</ol>
+<p>Once you are done with that, go to the terminal on your desktop and run this command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rsync -vrP --delete --rsh<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;ssh -p 8022&#39;</span> ~/passdb/on/desktop.kbdx username@ip:passdb/on/cellphone.kbdx 
+</span></span></code></pre></div><p>here i specify the port with <code>--rsh='ssh -p 8022'</code> because specifying it with <code>--port</code> flag didng work for me.
+repace your username with your username and local ip adress of termux in <code>username@ip</code>.
+and repace the paths in the commands to where your password database is stored in your desktop and cellphone.
+and here we go, it will sync the database.</p>
+<p>However, i wanted to go further and make it a bit <em>automaticish</em>, so i ended up with this script.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/sh
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e"># paths of database file locations in android and desktop</span>
+</span></span><span style="display:flex;"><span>anpath<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;storage/shared/path/to/pass-database.kdbx&#34;</span>
+</span></span><span style="display:flex;"><span>deskpath<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;path/to/pass-database.kdbx&#34;</span> 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># getting last modified date</span>
+</span></span><span style="display:flex;"><span>desktop<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>stat -c%Y $deskpath<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>android<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>ssh android -t stat -c%Y $anpath<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># syncing the database between both devices by calculating</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># in which device the password database was last modified.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># not syncing anything if there was no change.</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $android -lt $desktop <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>  echo <span style="color:#e6db74">&#34;transferring from desktop to android&#34;</span>
+</span></span><span style="display:flex;"><span>  rsync -vrtP $deskpath android:$anpath 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">elif</span> <span style="color:#f92672">[</span> $desktop -lt $android <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>  echo <span style="color:#e6db74">&#34;transferring from android to desktop&#34;</span>
+</span></span><span style="display:flex;"><span>  rsync -vrtP android:$anpath $deskpath
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">elif</span> <span style="color:#f92672">[</span> $desktop -eq $android <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>  echo <span style="color:#e6db74">&#34;nothing was modified, not syncing&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span></code></pre></div><p>When i run this script, it will check in which device i had the password database last modified,
+and sync the password databse from desktop to cellphone if it was last modified on my desktop computer and vice versa.</p>
+<p>Thank you for reading my blog with bajillions of spelling &amp; grammar mistakes.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="/posts/auto-cpufreq-is-all-you-need/">
+                <span class="button__icon">←</span>
+                <span class="button__text">auto-cpufreq Is All You Need</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="/posts/turning-on-pc-without-power-button/">
+                <span class="button__text">How to boot a computer without pressing power button</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© 2025 by krolyxon</span>
+    
+      <span>:: <a href="https://github.com/mirus-ua/hugo-theme-re-terminal" target="_blank">Theme</a> made by <a href="https://github.com/mirus-ua" target="_blank">Mirus</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Personal on Krolyxon&#39;s webpage</title>
-    <link>https://krolyxon.github.io/tags/personal/</link>
-    <description>Recent content in Personal on Krolyxon&#39;s webpage</description>
-    <generator>Hugo -- 0.139.2</generator>
+    <title>Personal on </title>
+    <link>/tags/personal/</link>
+    <description>Recent content in Personal on </description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 30 Dec 2023 16:18:25 +0530</lastBuildDate>
-    <atom:link href="https://krolyxon.github.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Dec 2023 16:18:25 +0530</lastBuildDate><atom:link href="/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Got Faulty Product From Flipkart</title>
-      <link>https://krolyxon.github.io/blog/got-faulty-product-from-flipkart/</link>
+      <link>/posts/got-faulty-product-from-flipkart/</link>
       <pubDate>Sat, 30 Dec 2023 16:18:25 +0530</pubDate>
-      <guid>https://krolyxon.github.io/blog/got-faulty-product-from-flipkart/</guid>
+      
+      <guid>/posts/got-faulty-product-from-flipkart/</guid>
       <description>&lt;p&gt;Today i got a faulty 16GB ram from Flipkart.
-So the RAM i ordered was &lt;a href=&#34;https://www.flipkart.com/crucial-16gb-ddr4-3200mhz-cl22-16-gb-laptop-ct16g4sfs832a/p/itmceac5769ac001?pid=RAMGKX6ZCJPDGCTZ&amp;amp;q=crucial+16+gb+laptop+ram&amp;amp;qH=6bd7dde490d2b5bc&#34;&gt;Crucial 16GB 3200Mhz laptop RAM&lt;/a&gt;. It turns out to be faulty and i cant even return it 💀.&lt;/p&gt;
+So the RAM i ordered was &lt;a href=&#34;https://www.flipkart.com/crucial-16gb-ddr4-3200mhz-cl22-16-gb-laptop-ct16g4sfs832a/p/itmceac5769ac001?pid=RAMGKX6ZCJPDGCTZ&amp;amp;q=crucial&amp;#43;16&amp;#43;gb&amp;#43;laptop&amp;#43;ram&amp;amp;qH=6bd7dde490d2b5bc&#34;&gt;Crucial 16GB 3200Mhz laptop RAM&lt;/a&gt;. It turns out to be faulty and i cant even return it 💀.&lt;/p&gt;
 &lt;p&gt;So here is the story in the format of 4 stages of grief :)&lt;/p&gt;
 &lt;h2 id=&#34;stage-1-excitement-happiness&#34;&gt;Stage 1: Excitement, Happiness.&lt;/h2&gt;
 &lt;p&gt;it was 10 am in the morning, i was sleeping. I get a call from my mum that the RAM i ordered online has just arrived and i gotta be there to confirm the delivery and to verify that the product is right. I woke up immediately, in a rush without fixing my bed. i ran with happiness and excitement, and full of thoughts of what i am going to do after upgrading my laptop&amp;rsquo;s ram. Confirmed the order, took the RAM, went back to my room. I was happy. I was excited.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Today i got a faulty 16GB ram from Flipkart.
+So the RAM i ordered was &lt;a href=&#34;https://www.flipkart.com/crucial-16gb-ddr4-3200mhz-cl22-16-gb-laptop-ct16g4sfs832a/p/itmceac5769ac001?pid=RAMGKX6ZCJPDGCTZ&amp;amp;q=crucial&amp;#43;16&amp;#43;gb&amp;#43;laptop&amp;#43;ram&amp;amp;qH=6bd7dde490d2b5bc&#34;&gt;Crucial 16GB 3200Mhz laptop RAM&lt;/a&gt;. It turns out to be faulty and i cant even return it 💀.&lt;/p&gt;
+&lt;p&gt;So here is the story in the format of 4 stages of grief :)&lt;/p&gt;
+&lt;h2 id=&#34;stage-1-excitement-happiness&#34;&gt;Stage 1: Excitement, Happiness.&lt;/h2&gt;
+&lt;p&gt;it was 10 am in the morning, i was sleeping. I get a call from my mum that the RAM i ordered online has just arrived and i gotta be there to confirm the delivery and to verify that the product is right. I woke up immediately, in a rush without fixing my bed. i ran with happiness and excitement, and full of thoughts of what i am going to do after upgrading my laptop&amp;rsquo;s ram. Confirmed the order, took the RAM, went back to my room. I was happy. I was excited.&lt;/p&gt;
+&lt;h2 id=&#34;stage-2-fear--shocked&#34;&gt;Stage 2: Fear , Shocked.&lt;/h2&gt;
+&lt;p&gt;After getting back to my room, i started opening my laptop&amp;rsquo;s back which has small plus/star screws with a huge flat head screwdriver 💀. i managed to open all the screws and the back panel withing 10 minutes, i installed the ram. After that my laptop booted into my Arch Linux (btw) without any issues, and i was still happy. To confirm that the ram has been installed correctly, i quickly ran &lt;code&gt;neofetch&lt;/code&gt;, and this is where my happiness started turning into fear. the ram was still &lt;code&gt;8 Gb&lt;/code&gt;, when it should have been &lt;code&gt;8 + 16 = 24 Gb&lt;/code&gt;.
+Thinking that i just installed it incorrectly, i tried all different variations again, such as swapping the ram slots, using only the new ram, and all that. but it still wasn&amp;rsquo;t working, and then i was sure that i just got an defected product. I was Afraid. I was Shocked.&lt;/p&gt;
+&lt;h2 id=&#34;stage-3-anger-tears&#34;&gt;Stage 3: Anger, Tears&lt;/h2&gt;
+&lt;p&gt;Now since it was for sure that i had gotten an defected RAM, i quickly opened up Flipkart and tried to find the Return button, and it turns out that this particular seller did not provide any return policies. I am not sure 100%, but i do believe it did said that it provides return policies and then the seller changed it, but we cant say for sure. I was really panicking.
+I called Flipkart customer support, and had a talk with the technician, and there he also confirmed that Flipkart cant help me since the product does not come under the refundable product&amp;rsquo;s category. then i knew for sure, I am f*cked.
+I was Angry. I was Crying.&lt;/p&gt;
+&lt;h2 id=&#34;stage-4-acceptance&#34;&gt;Stage 4: Acceptance&lt;/h2&gt;
+&lt;p&gt;After fuming and crying for about an hour, and talking with my friends on Matrix about it. i finally had just accepted it, and decided to write a article on it to share my feelings. I was broken but i was okay.&lt;/p&gt;
+</content>
     </item>
+    
   </channel>
 </rss>

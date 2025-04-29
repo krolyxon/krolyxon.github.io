@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>auto-cpufreq Is All You Need :: </title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Recently, i got myself a laptop (a gaming one) for college work, and the battery life was fine on windows (which it came preinstalled with) because windows by default does battery power optimizations preserve battery life. When i installed Arch Linux on it, the battery life was disappointing. On windows my laptop would last for about 3 hours and on the other hand on linux, it would barely reach 2 hours&hellip;
+" />
+<meta name="keywords" content="krolyxon" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/auto-cpufreq-is-all-you-need/" />
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="auto-cpufreq Is All You Need">
+<meta property="og:description" content="Recently, i got myself a laptop (a gaming one) for college work, and the battery life was fine on windows (which it came preinstalled with) because windows by default does battery power optimizations preserve battery life. When i installed Arch Linux on it, the battery life was disappointing. On windows my laptop would last for about 3 hours and on the other hand on linux, it would barely reach 2 hours&hellip;
+" />
+<meta property="og:url" content="/posts/auto-cpufreq-is-all-you-need/" />
+<meta property="og:site_name" content="" />
+
+  
+    <meta property="og:image" content="/favicon.ico">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2023-11-23 18:34:42 &#43;0530 IST" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+</head>
+<body class="green">
+
+
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Krolyxon
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About Me</a></li>
+        
+      
+        
+          <li><a href="/contact">Contact</a></li>
+        
+      
+        
+          <li><a href="/links">Links</a></li>
+        
+      
+        
+          <li><a href="/tags">Tags</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+      
+        
+          <li><a href="/about" >About Me</a></li>
+        
+      
+        
+          <li><a href="/contact" >Contact</a></li>
+        
+      
+        
+          <li><a href="/links" >Links</a></li>
+        
+      
+        
+          <li><a href="/tags" >Tags</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/auto-cpufreq-is-all-you-need/">auto-cpufreq Is All You Need</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2023-11-23[Updated::2023-11-23]</time>
+    
+<span class="post-reading-time">2 min read (293 words)</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/tech/">tech</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+
+  
+    <div class="table-of-contents">
+      <h2>
+        Table of Contents
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#tlp">TLP</a></li>
+    <li><a href="#auto-cpufreq">Auto-cpufreq</a>
+      <ul>
+        <li><a href="#installation-of-auto-cpufreq">Installation of Auto-cpufreq</a></li>
+      </ul>
+    </li>
+    <li><a href="#results">Results</a></li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <p>Recently, i got myself a laptop (a gaming one) for college work, and the battery life was fine on windows (which it came preinstalled with) because windows by default does battery power optimizations preserve battery life. When i installed Arch Linux on it, the battery life was disappointing.
+On windows my laptop would last for about 3 hours and on the other hand on linux, it would barely reach 2 hours&hellip;</p>
+<h2 id="tlp">TLP<a href="#tlp" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>So i searched up on arch wiki on battery life optimizations on linux, and i came to know about <a href="https://wiki.archlinux.org/title/TLP">TLP</a> which is a feature-rich command line utility for saving battery power. So i used it, and it didnt really make a big difference&hellip; i don&rsquo;t know why, and i also didn&rsquo;t go really deep into it. I probably got half an hour extra, thats all. Now, i know that TLP is not what i want, so i kept on search.</p>
+<h2 id="auto-cpufreq">Auto-cpufreq<a href="#auto-cpufreq" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Then after digging online for few more hours, i got introduced to <a href="https://github.com/AdnanHodzic/auto-cpufreq">auto-cpufreq</a>. It is a tool which automatically tinkers your CPU speed and optimizes power. I thought of giving it a try, and holy shit its amazing.</p>
+<h3 id="installation-of-auto-cpufreq">Installation of Auto-cpufreq<a href="#installation-of-auto-cpufreq" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>The installation is simple, all you have to do is clone their git repo and use their install script to install.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> https://github.com/AdnanHodzic/auto-cpufreq.git
+</span></span><span style="display:flex;"><span>cd auto-cpufreq
+</span></span><span style="display:flex;"><span>sudo ./auto-cpufreq-installer
+</span></span></code></pre></div><p>And that would do the installation of auto-cpufreq, however to setup auto-cpufreq for your cpu and auto configure it, you have to run <code>sudo auto-cpufreq --install</code> and then just reboot your laptop. And thats it.
+To check if its working, just do <code>auto-cpufreq --stats</code> and it will show the changes in cpu&rsquo;s frequency.</p>
+<h2 id="results">Results<a href="#results" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>After setting up auto-cpufreq, my battery life is as follows.</p>
+<ul>
+<li>Before: 2-2.5 Hours</li>
+<li>After: 4-4.5 Hours</li>
+</ul>
+<!-- raw HTML omitted -->
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="/posts/got-faulty-product-from-flipkart/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Got Faulty Product From Flipkart</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="/posts/sync-keepass-database/">
+                <span class="button__text">Syncing keepass database between android and desktop with rsync</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© 2025 by krolyxon</span>
+    
+      <span>:: <a href="https://github.com/mirus-ua/hugo-theme-re-terminal" target="_blank">Theme</a> made by <a href="https://github.com/mirus-ua" target="_blank">Mirus</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
