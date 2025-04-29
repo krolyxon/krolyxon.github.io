@@ -1,72 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Life on </title>
+    <title>Life on Krolyxon&#39;s site</title>
     <link>/tags/life/</link>
-    <description>Recent content in Life on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Life on Krolyxon&#39;s site</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Dec 2024 20:12:28 +0530</lastBuildDate><atom:link href="/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Dec 2024 20:12:28 +0530</lastBuildDate>
+    <atom:link href="/tags/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Abandoning Music</title>
       <link>/posts/abandoning-music/</link>
       <pubDate>Mon, 16 Dec 2024 20:12:28 +0530</pubDate>
-      
       <guid>/posts/abandoning-music/</guid>
-      <description>&lt;p&gt;Ladies and Gentlemen it is with great pleasure to inform all of you that i have finally decided to get rid of all the music from my life.&lt;/p&gt;
-&lt;h2 id=&#34;my-thoughts-on-music&#34;&gt;My thoughts on Music&lt;/h2&gt;
-&lt;p&gt;I Love music. It can be a great tool if you use it in your life just to entertain yourself once in a while and relax. But for me, the story is quite different, lets start with it.&lt;/p&gt;</description>
-      <content>&lt;p&gt;Ladies and Gentlemen it is with great pleasure to inform all of you that i have finally decided to get rid of all the music from my life.&lt;/p&gt;
-&lt;h2 id=&#34;my-thoughts-on-music&#34;&gt;My thoughts on Music&lt;/h2&gt;
-&lt;p&gt;I Love music. It can be a great tool if you use it in your life just to entertain yourself once in a while and relax. But for me, the story is quite different, lets start with it.&lt;/p&gt;
-&lt;p&gt;I used to listen to it every single day, not spending single bit of free time without listening to music. The first thing i would do when i wake up is to start my favorite playlist and then start getting ready, i had gotten used to doing my daily chores or any kind of work to be honest while having music being played in the background. It was as if like my life was a movie at this point and that music was the background music being played.&lt;/p&gt;
-&lt;p&gt;Now this had become a problem, i couldn&amp;rsquo;t find myself being productive at all without having music in my background. It was as if music was the only source of motivation at that point and i started noticing that.
-The amount of dopamine hits good music can give you is unimaginable, especially if the music is from Hans Zimmer, he is too good and you just can&amp;rsquo;t help but listen to it for hours and hours. While i still don&amp;rsquo;t think music is a bad thing, but in my case things have gone wrong, really wrong. So i got no option but to abandon it from my daily routine. I have made strict rules about when i am allowed to listen to music (which is never, by myself). The only way i am allowed to listen to music is when i am with my associates and he/she is listening to it, so i might join them but i am not allowed to play it by myself.&lt;/p&gt;
-&lt;p&gt;Thankfully i didn&amp;rsquo;t have any digital footprint of the music i listen to because i never used Spotify and any other online music streaming services, i didn&amp;rsquo;t have to spend any time deleting online accounts, just had to &lt;code&gt;rm -rf ~/music &amp;amp;&amp;amp; sudo pacman -Rns mpd rmptui&lt;/code&gt;, and there it is, Its Gone!&lt;/p&gt;
-&lt;p&gt;Its ironic that i am writing this blog called &amp;ldquo;Abandoning Music&amp;rdquo; even though i myself have created a TUI music player previously (&lt;a href=&#34;https://github.com/krolyxon/rmptui&#34;&gt;rmptui&lt;/a&gt;, now archived). I guess i am also abandoning the development on it as well. Anyways, as of today (16/12/2024) the latest commit on that repo was 6 months ago, so i think its abandoned already 😅.&lt;/p&gt;
-&lt;h2 id=&#34;should-you-do-the-same&#34;&gt;Should you do the same?&lt;/h2&gt;
-&lt;p&gt;I don&amp;rsquo;t really think so. If you only occasionally listen to it and not have it playing in the background all the time as if its a part of your daily routine, you are doing just fine. Enjoy it, its good for you.&lt;/p&gt;
-</content>
+      <description>&lt;p&gt;Ladies and Gentlemen it is with great pleasure to inform all of you that i have finally decided to get rid of all the music from my life.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-thoughts-on-music&#34;&gt;My thoughts on Music&lt;/h2&gt;&#xA;&lt;p&gt;I Love music. It can be a great tool if you use it in your life just to entertain yourself once in a while and relax. But for me, the story is quite different, lets start with it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My Experience With Dopamine Detox</title>
       <link>/posts/experience-with-dopamine-detox/</link>
       <pubDate>Sun, 18 Feb 2024 14:55:21 +0530</pubDate>
-      
       <guid>/posts/experience-with-dopamine-detox/</guid>
-      <description>&lt;h1 id=&#34;my-experience-with-dopamine-detox&#34;&gt;My Experience with Dopamine Detox&lt;/h1&gt;
-&lt;p&gt;Few days ago i came to realize that from past few months i haven&amp;rsquo;t had any creative thoughts and i hadn&amp;rsquo;t done anything new at all. It was all the same, wake up, music, watch movies, videos on youtube, consume consume&amp;hellip;..
-I would spend all my day just consuming information on the internet and not doing any real work. My mind was being stimulated entire day, whether it be with music or youtube videos.
-i wouldn&amp;rsquo;t spend a single moment of my day without any kind of stimulation. Sleeping? just play a long youtube video and fall asleep listening to it. Getting ready for college? just play a music playlist in the background. Working out? just play workout playlist. Reading or studying a article? play Lofi music in background. this had a big impact on my creativity and thinking.
-it was depressing, because when i was younger i was one of the most creative kids among other students in school, here i am being a coomer on the internet doing nothing but consuming online media.
-I decided to work on my lifestyle, and started dopamine detox, its been a week, and today i am going to share my experience with my dopamine detox.&lt;/p&gt;</description>
-      <content>&lt;h1 id=&#34;my-experience-with-dopamine-detox&#34;&gt;My Experience with Dopamine Detox&lt;/h1&gt;
-&lt;p&gt;Few days ago i came to realize that from past few months i haven&amp;rsquo;t had any creative thoughts and i hadn&amp;rsquo;t done anything new at all. It was all the same, wake up, music, watch movies, videos on youtube, consume consume&amp;hellip;..
-I would spend all my day just consuming information on the internet and not doing any real work. My mind was being stimulated entire day, whether it be with music or youtube videos.
-i wouldn&amp;rsquo;t spend a single moment of my day without any kind of stimulation. Sleeping? just play a long youtube video and fall asleep listening to it. Getting ready for college? just play a music playlist in the background. Working out? just play workout playlist. Reading or studying a article? play Lofi music in background. this had a big impact on my creativity and thinking.
-it was depressing, because when i was younger i was one of the most creative kids among other students in school, here i am being a coomer on the internet doing nothing but consuming online media.
-I decided to work on my lifestyle, and started dopamine detox, its been a week, and today i am going to share my experience with my dopamine detox.&lt;/p&gt;
-&lt;h2 id=&#34;rules-for-dopamine-detox&#34;&gt;Rules for Dopamine Detox&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;No music while doing daily chores or work.&lt;/li&gt;
-&lt;li&gt;No social media, unless your friend tells you to watch some reel.&lt;/li&gt;
-&lt;li&gt;Spend at least 30 minutes reading a real book.&lt;/li&gt;
-&lt;li&gt;Even after you relapse. don&amp;rsquo;t get depressed,  just restart.&lt;/li&gt;
-&lt;li&gt;Spend some time of the day doing nothing, that time you will have the most creative thoughts.&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t do this for set amount of days, from now on this is your lifestyle. Forever.&lt;/li&gt;
-&lt;li&gt;Consume less, produce more.&lt;/li&gt;
-&lt;li&gt;Do one and only task at a time, no multitasking. Things might take more time to get done, but at least you will get them done.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;my-experience&#34;&gt;My Experience&lt;/h2&gt;
-&lt;p&gt;The day i started Dopamine detox, i woke up and avoided listening to music while getting ready, i was already getting quick at doing things done. i wouldn&amp;rsquo;t spend any time checking out social media or anything related to internet. i would just wake up, and start getting ready. Nothing else.
-The whole day i was feeling like a wizard, i felt like i could get anything done. Be it homework, or any programming task, everything started to feel like i can do it.
-My mind was calm, i got better at problem solving, i started getting more things done, and i felt like a god.
-From last few days, this godly feeling hasn&amp;rsquo;t gotten away, and today i am writing this blog to share it with you all.
-Guess what, i even made a cool &lt;a href=&#34;https://github.com/krolyxon/JavaCalc&#34;&gt;GUI calculator&lt;/a&gt; in Java (which i sucked at), i just sat down and did it, no constant stimulation in background, just work. My working speed has gotten insanely fast. i just feel like i can get done anything fast.
-I dont feel like relapsing at all. I wish i had started living like this earlier.&lt;/p&gt;
-</content>
+      <description>&lt;h1 id=&#34;my-experience-with-dopamine-detox&#34;&gt;My Experience with Dopamine Detox&lt;/h1&gt;&#xA;&lt;p&gt;Few days ago i came to realize that from past few months i haven&amp;rsquo;t had any creative thoughts and i hadn&amp;rsquo;t done anything new at all. It was all the same, wake up, music, watch movies, videos on youtube, consume consume&amp;hellip;..&#xA;I would spend all my day just consuming information on the internet and not doing any real work. My mind was being stimulated entire day, whether it be with music or youtube videos.&#xA;i wouldn&amp;rsquo;t spend a single moment of my day without any kind of stimulation. Sleeping? just play a long youtube video and fall asleep listening to it. Getting ready for college? just play a music playlist in the background. Working out? just play workout playlist. Reading or studying a article? play Lofi music in background. this had a big impact on my creativity and thinking.&#xA;it was depressing, because when i was younger i was one of the most creative kids among other students in school, here i am being a coomer on the internet doing nothing but consuming online media.&#xA;I decided to work on my lifestyle, and started dopamine detox, its been a week, and today i am going to share my experience with my dopamine detox.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

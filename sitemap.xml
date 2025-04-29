@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>/posts/abandoning-music/</loc>
     <lastmod>2024-12-16T20:12:28+05:30</lastmod>
   </url><url>
-    <loc>/posts/abandoning-music/</loc>
+    <loc>/</loc>
     <lastmod>2024-12-16T20:12:28+05:30</lastmod>
   </url><url>
     <loc>/tags/life/</loc>
@@ -45,10 +45,10 @@
     <lastmod>2023-11-23T18:34:42+05:30</lastmod>
   </url><url>
     <loc>/contact/</loc>
-    <lastmod>2024-04-18T11:28:14+05:30</lastmod>
+    <lastmod>2023-11-12T22:11:47+05:30</lastmod>
   </url><url>
     <loc>/about/</loc>
-    <lastmod>2024-10-10T14:06:26+05:30</lastmod>
+    <lastmod>2023-11-12T22:08:32+05:30</lastmod>
   </url><url>
     <loc>/posts/sync-keepass-database/</loc>
     <lastmod>2022-09-18T00:00:00+00:00</lastmod>
@@ -60,7 +60,6 @@
     <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/links/</loc>
-    <lastmod>2024-06-18T17:50:59+05:30</lastmod>
   </url><url>
     <loc>/categories/</loc>
   </url>

@@ -1,107 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech on </title>
+    <title>Tech on Krolyxon&#39;s site</title>
     <link>/tags/tech/</link>
-    <description>Recent content in Tech on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Tech on Krolyxon&#39;s site</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 30 Dec 2023 16:18:25 +0530</lastBuildDate><atom:link href="/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Dec 2023 16:18:25 +0530</lastBuildDate>
+    <atom:link href="/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Got Faulty Product From Flipkart</title>
       <link>/posts/got-faulty-product-from-flipkart/</link>
       <pubDate>Sat, 30 Dec 2023 16:18:25 +0530</pubDate>
-      
       <guid>/posts/got-faulty-product-from-flipkart/</guid>
-      <description>&lt;p&gt;Today i got a faulty 16GB ram from Flipkart.
-So the RAM i ordered was &lt;a href=&#34;https://www.flipkart.com/crucial-16gb-ddr4-3200mhz-cl22-16-gb-laptop-ct16g4sfs832a/p/itmceac5769ac001?pid=RAMGKX6ZCJPDGCTZ&amp;amp;q=crucial&amp;#43;16&amp;#43;gb&amp;#43;laptop&amp;#43;ram&amp;amp;qH=6bd7dde490d2b5bc&#34;&gt;Crucial 16GB 3200Mhz laptop RAM&lt;/a&gt;. It turns out to be faulty and i cant even return it 💀.&lt;/p&gt;
-&lt;p&gt;So here is the story in the format of 4 stages of grief :)&lt;/p&gt;
-&lt;h2 id=&#34;stage-1-excitement-happiness&#34;&gt;Stage 1: Excitement, Happiness.&lt;/h2&gt;
-&lt;p&gt;it was 10 am in the morning, i was sleeping. I get a call from my mum that the RAM i ordered online has just arrived and i gotta be there to confirm the delivery and to verify that the product is right. I woke up immediately, in a rush without fixing my bed. i ran with happiness and excitement, and full of thoughts of what i am going to do after upgrading my laptop&amp;rsquo;s ram. Confirmed the order, took the RAM, went back to my room. I was happy. I was excited.&lt;/p&gt;</description>
-      <content>&lt;p&gt;Today i got a faulty 16GB ram from Flipkart.
-So the RAM i ordered was &lt;a href=&#34;https://www.flipkart.com/crucial-16gb-ddr4-3200mhz-cl22-16-gb-laptop-ct16g4sfs832a/p/itmceac5769ac001?pid=RAMGKX6ZCJPDGCTZ&amp;amp;q=crucial&amp;#43;16&amp;#43;gb&amp;#43;laptop&amp;#43;ram&amp;amp;qH=6bd7dde490d2b5bc&#34;&gt;Crucial 16GB 3200Mhz laptop RAM&lt;/a&gt;. It turns out to be faulty and i cant even return it 💀.&lt;/p&gt;
-&lt;p&gt;So here is the story in the format of 4 stages of grief :)&lt;/p&gt;
-&lt;h2 id=&#34;stage-1-excitement-happiness&#34;&gt;Stage 1: Excitement, Happiness.&lt;/h2&gt;
-&lt;p&gt;it was 10 am in the morning, i was sleeping. I get a call from my mum that the RAM i ordered online has just arrived and i gotta be there to confirm the delivery and to verify that the product is right. I woke up immediately, in a rush without fixing my bed. i ran with happiness and excitement, and full of thoughts of what i am going to do after upgrading my laptop&amp;rsquo;s ram. Confirmed the order, took the RAM, went back to my room. I was happy. I was excited.&lt;/p&gt;
-&lt;h2 id=&#34;stage-2-fear--shocked&#34;&gt;Stage 2: Fear , Shocked.&lt;/h2&gt;
-&lt;p&gt;After getting back to my room, i started opening my laptop&amp;rsquo;s back which has small plus/star screws with a huge flat head screwdriver 💀. i managed to open all the screws and the back panel withing 10 minutes, i installed the ram. After that my laptop booted into my Arch Linux (btw) without any issues, and i was still happy. To confirm that the ram has been installed correctly, i quickly ran &lt;code&gt;neofetch&lt;/code&gt;, and this is where my happiness started turning into fear. the ram was still &lt;code&gt;8 Gb&lt;/code&gt;, when it should have been &lt;code&gt;8 + 16 = 24 Gb&lt;/code&gt;.
-Thinking that i just installed it incorrectly, i tried all different variations again, such as swapping the ram slots, using only the new ram, and all that. but it still wasn&amp;rsquo;t working, and then i was sure that i just got an defected product. I was Afraid. I was Shocked.&lt;/p&gt;
-&lt;h2 id=&#34;stage-3-anger-tears&#34;&gt;Stage 3: Anger, Tears&lt;/h2&gt;
-&lt;p&gt;Now since it was for sure that i had gotten an defected RAM, i quickly opened up Flipkart and tried to find the Return button, and it turns out that this particular seller did not provide any return policies. I am not sure 100%, but i do believe it did said that it provides return policies and then the seller changed it, but we cant say for sure. I was really panicking.
-I called Flipkart customer support, and had a talk with the technician, and there he also confirmed that Flipkart cant help me since the product does not come under the refundable product&amp;rsquo;s category. then i knew for sure, I am f*cked.
-I was Angry. I was Crying.&lt;/p&gt;
-&lt;h2 id=&#34;stage-4-acceptance&#34;&gt;Stage 4: Acceptance&lt;/h2&gt;
-&lt;p&gt;After fuming and crying for about an hour, and talking with my friends on Matrix about it. i finally had just accepted it, and decided to write a article on it to share my feelings. I was broken but i was okay.&lt;/p&gt;
-</content>
+      <description>&lt;p&gt;Today i got a faulty 16GB ram from Flipkart.&#xA;So the RAM i ordered was &lt;a href=&#34;https://www.flipkart.com/crucial-16gb-ddr4-3200mhz-cl22-16-gb-laptop-ct16g4sfs832a/p/itmceac5769ac001?pid=RAMGKX6ZCJPDGCTZ&amp;amp;q=crucial&amp;#43;16&amp;#43;gb&amp;#43;laptop&amp;#43;ram&amp;amp;qH=6bd7dde490d2b5bc&#34;&gt;Crucial 16GB 3200Mhz laptop RAM&lt;/a&gt;. It turns out to be faulty and i cant even return it 💀.&lt;/p&gt;&#xA;&lt;p&gt;So here is the story in the format of 4 stages of grief :)&lt;/p&gt;&#xA;&lt;h2 id=&#34;stage-1-excitement-happiness&#34;&gt;Stage 1: Excitement, Happiness.&lt;/h2&gt;&#xA;&lt;p&gt;it was 10 am in the morning, i was sleeping. I get a call from my mum that the RAM i ordered online has just arrived and i gotta be there to confirm the delivery and to verify that the product is right. I woke up immediately, in a rush without fixing my bed. i ran with happiness and excitement, and full of thoughts of what i am going to do after upgrading my laptop&amp;rsquo;s ram. Confirmed the order, took the RAM, went back to my room. I was happy. I was excited.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>auto-cpufreq Is All You Need</title>
       <link>/posts/auto-cpufreq-is-all-you-need/</link>
       <pubDate>Thu, 23 Nov 2023 18:34:42 +0530</pubDate>
-      
       <guid>/posts/auto-cpufreq-is-all-you-need/</guid>
-      <description>&lt;p&gt;Recently, i got myself a laptop (a gaming one) for college work, and the battery life was fine on windows (which it came preinstalled with) because windows by default does battery power optimizations preserve battery life. When i installed Arch Linux on it, the battery life was disappointing.
-On windows my laptop would last for about 3 hours and on the other hand on linux, it would barely reach 2 hours&amp;hellip;&lt;/p&gt;</description>
-      <content>&lt;p&gt;Recently, i got myself a laptop (a gaming one) for college work, and the battery life was fine on windows (which it came preinstalled with) because windows by default does battery power optimizations preserve battery life. When i installed Arch Linux on it, the battery life was disappointing.
-On windows my laptop would last for about 3 hours and on the other hand on linux, it would barely reach 2 hours&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;tlp&#34;&gt;TLP&lt;/h2&gt;
-&lt;p&gt;So i searched up on arch wiki on battery life optimizations on linux, and i came to know about &lt;a href=&#34;https://wiki.archlinux.org/title/TLP&#34;&gt;TLP&lt;/a&gt; which is a feature-rich command line utility for saving battery power. So i used it, and it didnt really make a big difference&amp;hellip; i don&amp;rsquo;t know why, and i also didn&amp;rsquo;t go really deep into it. I probably got half an hour extra, thats all. Now, i know that TLP is not what i want, so i kept on search.&lt;/p&gt;
-&lt;h2 id=&#34;auto-cpufreq&#34;&gt;Auto-cpufreq&lt;/h2&gt;
-&lt;p&gt;Then after digging online for few more hours, i got introduced to &lt;a href=&#34;https://github.com/AdnanHodzic/auto-cpufreq&#34;&gt;auto-cpufreq&lt;/a&gt;. It is a tool which automatically tinkers your CPU speed and optimizes power. I thought of giving it a try, and holy shit its amazing.&lt;/p&gt;
-&lt;h3 id=&#34;installation-of-auto-cpufreq&#34;&gt;Installation of Auto-cpufreq&lt;/h3&gt;
-&lt;p&gt;The installation is simple, all you have to do is clone their git repo and use their install script to install.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone --depth&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; https://github.com/AdnanHodzic/auto-cpufreq.git
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd auto-cpufreq
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo ./auto-cpufreq-installer
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And that would do the installation of auto-cpufreq, however to setup auto-cpufreq for your cpu and auto configure it, you have to run &lt;code&gt;sudo auto-cpufreq --install&lt;/code&gt; and then just reboot your laptop. And thats it.
-To check if its working, just do &lt;code&gt;auto-cpufreq --stats&lt;/code&gt; and it will show the changes in cpu&amp;rsquo;s frequency.&lt;/p&gt;
-&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;p&gt;After setting up auto-cpufreq, my battery life is as follows.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Before: 2-2.5 Hours&lt;/li&gt;
-&lt;li&gt;After: 4-4.5 Hours&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
-</content>
+      <description>&lt;p&gt;Recently, i got myself a laptop (a gaming one) for college work, and the battery life was fine on windows (which it came preinstalled with) because windows by default does battery power optimizations preserve battery life. When i installed Arch Linux on it, the battery life was disappointing.&#xA;On windows my laptop would last for about 3 hours and on the other hand on linux, it would barely reach 2 hours&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to boot a computer without pressing power button</title>
       <link>/posts/turning-on-pc-without-power-button/</link>
       <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>/posts/turning-on-pc-without-power-button/</guid>
-      <description>&lt;p&gt;So recently, my computer&amp;rsquo;s power button stopped working.
-i dont know what exactly happened to it, but it just stopped working.
-now i was completely unable to boot my PC. i spent whole day without my computer,
-thinking i would take it to a computer technician and fix it the next day.
-but just for the sake of trying out, i tried figuring some way out myself.
-I opened my PC&amp;rsquo;s cabinate and searched for the cable which connects the motherboard and the power button(POWER SW cable).
-I disconnected that cable from the motherboard and took a screwdriver and then trouched it to the
-pins where the POWER SW cable was connected previously.
-Voilah! the pc booted up.&lt;/p&gt;</description>
-      <content>&lt;p&gt;So recently, my computer&amp;rsquo;s power button stopped working.
-i dont know what exactly happened to it, but it just stopped working.
-now i was completely unable to boot my PC. i spent whole day without my computer,
-thinking i would take it to a computer technician and fix it the next day.
-but just for the sake of trying out, i tried figuring some way out myself.
-I opened my PC&amp;rsquo;s cabinate and searched for the cable which connects the motherboard and the power button(POWER SW cable).
-I disconnected that cable from the motherboard and took a screwdriver and then trouched it to the
-pins where the POWER SW cable was connected previously.
-Voilah! the pc booted up.&lt;/p&gt;
-&lt;p&gt;The problem was it wouldn&amp;rsquo;t completely boot to my operating and
-gave me an error that the POWER SW cable was disconnected, obviously because i removed it.
-but it did gave me an option to go to the BIOS menu by pressing F2.
-After going to the BIOS menu i went to the &amp;lsquo;Power Management&amp;rsquo; section and then &amp;lsquo;AC Recovery&amp;rsquo; and
-changed the &amp;lsquo;Restore on AC Power Loss&amp;rsquo; to &amp;lsquo;Power On&amp;rsquo; (its &amp;lsquo;Power Off&amp;rsquo; by default.)&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Now if you just give electricity to your computer,
-it will automatically turn on without the need of pressing the power button on your PC&amp;rsquo;s case/cabinet.
-So now, i dont need to spend money to fix the power button and it saves me a little bit of time by not having
-to press the power button everytime i want to turn on my pc.&lt;/p&gt;
-</content>
+      <description>&lt;p&gt;So recently, my computer&amp;rsquo;s power button stopped working.&#xA;i dont know what exactly happened to it, but it just stopped working.&#xA;now i was completely unable to boot my PC. i spent whole day without my computer,&#xA;thinking i would take it to a computer technician and fix it the next day.&#xA;but just for the sake of trying out, i tried figuring some way out myself.&#xA;I opened my PC&amp;rsquo;s cabinate and searched for the cable which connects the motherboard and the power button(POWER SW cable).&#xA;I disconnected that cable from the motherboard and took a screwdriver and then trouched it to the&#xA;pins where the POWER SW cable was connected previously.&#xA;Voilah! the pc booted up.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
