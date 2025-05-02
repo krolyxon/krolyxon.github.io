@@ -6,8 +6,29 @@
     <description>Recent content in Tech on Krolyxon&#39;s site</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 30 Dec 2023 16:18:25 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2024 13:56:10 +0530</lastBuildDate>
     <atom:link href="/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Switched to Brave</title>
+      <link>/posts/switched-to-brave/</link>
+      <pubDate>Thu, 10 Oct 2024 13:56:10 +0530</pubDate>
+      <guid>/posts/switched-to-brave/</guid>
+      <description>&lt;h1 id=&#34;i-switched-to-brave-browser-from-librewolf&#34;&gt;I switched to Brave Browser from Librewolf&lt;/h1&gt;&#xA;&lt;p&gt;Alright i have been making alot of switches these days, first it was switching to NvChad now this.&#xA;I previously used Librewolf, which was a more privacy focused browser based on Firefox, and to be honest it worked quite well.&#xA;It supported all the extensions/addons i needed, it had firefox sync, and the overall experience was nice.&lt;/p&gt;&#xA;&lt;p&gt;One thing that was bugging me was performance, previously i was unaware that librewolf performed worse compared to other chromium based browser.&#xA;I had to install a chromium based browser for my college work for some time, and there i experienced some speed, real speed.&#xA;And i fell into the trap and now i am using a chromium based browser as my default browser. There are lots of things that i am missing from librewolf,&#xA;such as smooth scrolling and mouse gestures (i miss them), its UI and firefox sync, but speed is something i always prioritize over anything else, so brave it is.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Switched to Nvchad</title>
+      <link>/posts/switched-to-nvchad/</link>
+      <pubDate>Mon, 30 Sep 2024 20:02:51 +0530</pubDate>
+      <guid>/posts/switched-to-nvchad/</guid>
+      <description>&lt;h1 id=&#34;i-officially-switched-to-nvchad&#34;&gt;I officially switched to NvChad&lt;/h1&gt;&#xA;&lt;p&gt;Throughout my journey of using Neovim, i always avoided using a pre-built config or any distribution of neovim such as LunarVim or AtroVim.&#xA;I felt pride in building my own configuration. But, after spending countless amount of painful hours fixing things manually when some plugin decides to make some breaking changes out of nowhere.&#xA;I finally decided i would just switch to a pre-built config like Lazyvim or NvChad.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rmptui - MPD client in Rust</title>
+      <link>/posts/rmptui/</link>
+      <pubDate>Sun, 02 Jun 2024 19:38:50 +0530</pubDate>
+      <guid>/posts/rmptui/</guid>
+      <description>&lt;h2 id=&#34;how-it-all-began&#34;&gt;How it all began&lt;/h2&gt;&#xA;&lt;p&gt;This is something that i have been working on for last couple of weeks.&#xA;&lt;a href=&#34;https://github.com/krolyxon/rmptui&#34;&gt;rmptui&lt;/a&gt; is a tui music player whichworks with&#xA;&lt;a href=&#34;https://www.musicpd.org/&#34;&gt;MPD&lt;/a&gt; (Music Player Daemon).&lt;/p&gt;&#xA;&lt;p&gt;I had decided to make a music player in rust in the May of 2023, but i never got around to it.&#xA;It was two months ago when i actually started working on it, because i wanted to learn rust.&lt;/p&gt;&#xA;&#xA;&lt;img src=&#34;/img/rmptui-v0.1.4.png&#34;  alt=&#34;rmptui-v0.1.4&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;    /&gt;&#xA;&#xA;&#xA;&lt;p&gt;Above pictures shows the directory browser tab of rmptui.&#xA;It has total three tabs:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Got Faulty Product From Flipkart</title>
       <link>/posts/got-faulty-product-from-flipkart/</link>
@@ -23,11 +44,25 @@
       <description>&lt;p&gt;Recently, i got myself a laptop (a gaming one) for college work, and the battery life was fine on windows (which it came preinstalled with) because windows by default does battery power optimizations preserve battery life. When i installed Arch Linux on it, the battery life was disappointing.&#xA;On windows my laptop would last for about 3 hours and on the other hand on linux, it would barely reach 2 hours&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Syncing keepass database between android and desktop with rsync</title>
+      <link>/posts/sync-keepass-database/</link>
+      <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/posts/sync-keepass-database/</guid>
+      <description>&lt;h1 id=&#34;introduction-to-keepass&#34;&gt;Introduction to keepass&lt;/h1&gt;&#xA;&lt;p&gt;Everyone should use password managers, because remembering unique passwords is difficult.&#xA;There are many great password FOSS password managers such as bitwarden, keepass, keepassxc etc.&#xA;I wouldnt recommend using bitwarden because its cloud based,&#xA;Your password database is being stored in cloud, and it makes me really paranoid.&#xA;because there are thousands of users using it, so a lot of hackers trying to hack bitwarden&amp;rsquo;s server.&#xA;bitwarden allows you to self-host it, so you can host it in your own server.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>How to boot a computer without pressing power button</title>
       <link>/posts/turning-on-pc-without-power-button/</link>
       <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
       <guid>/posts/turning-on-pc-without-power-button/</guid>
       <description>&lt;p&gt;So recently, my computer&amp;rsquo;s power button stopped working.&#xA;i dont know what exactly happened to it, but it just stopped working.&#xA;now i was completely unable to boot my PC. i spent whole day without my computer,&#xA;thinking i would take it to a computer technician and fix it the next day.&#xA;but just for the sake of trying out, i tried figuring some way out myself.&#xA;I opened my PC&amp;rsquo;s cabinate and searched for the cable which connects the motherboard and the power button(POWER SW cable).&#xA;I disconnected that cable from the motherboard and took a screwdriver and then trouched it to the&#xA;pins where the POWER SW cable was connected previously.&#xA;Voilah! the pc booted up.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lineage OS 19 on Moto g60</title>
+      <link>/posts/lineageos-on-motorola/</link>
+      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>/posts/lineageos-on-motorola/</guid>
+      <description>&lt;h2 id=&#34;clean-android-experience&#34;&gt;&amp;lsquo;Clean&amp;rsquo; Android experience&lt;/h2&gt;&#xA;&lt;p&gt;As i have said in my home page, i dont use cell phones that much but i do own a moto g60,&#xA;because it has become impossible to live without a cell phone in this modern era.&lt;/p&gt;&#xA;&lt;p&gt;The reason i chose to buy a motorola phone instead of those sh*tty compenies like xiaomi, vivo, oppo etc.&#xA;was because my friend (well i dont have any, its just a ehh friend not friend friend) told me that Motorola phones are &amp;lsquo;privacy&amp;rsquo; friendly and provide clean android experience.&#xA;and yeah of course, i fell for it. And let me tell you, no its no way near &amp;lsquo;privacy&amp;rsquo; friendly.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

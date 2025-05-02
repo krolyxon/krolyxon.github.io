@@ -20,6 +20,9 @@
     <loc>/posts/switched-to-brave/</loc>
     <lastmod>2024-10-10T13:56:10+05:30</lastmod>
   </url><url>
+    <loc>/tags/tech/</loc>
+    <lastmod>2024-10-10T13:56:10+05:30</lastmod>
+  </url><url>
     <loc>/posts/switched-to-nvchad/</loc>
     <lastmod>2024-09-30T20:02:51+05:30</lastmod>
   </url><url>
@@ -29,6 +32,9 @@
     <loc>/posts/cpu-manufacturing-is-magic/</loc>
     <lastmod>2024-06-02T17:42:07+05:30</lastmod>
   </url><url>
+    <loc>/tags/misc/</loc>
+    <lastmod>2024-06-02T17:42:07+05:30</lastmod>
+  </url><url>
     <loc>/posts/experience-with-dopamine-detox/</loc>
     <lastmod>2024-02-18T14:55:21+05:30</lastmod>
   </url><url>
@@ -36,9 +42,6 @@
     <lastmod>2023-12-30T16:18:25+05:30</lastmod>
   </url><url>
     <loc>/tags/personal/</loc>
-    <lastmod>2023-12-30T16:18:25+05:30</lastmod>
-  </url><url>
-    <loc>/tags/tech/</loc>
     <lastmod>2023-12-30T16:18:25+05:30</lastmod>
   </url><url>
     <loc>/posts/auto-cpufreq-is-all-you-need/</loc>

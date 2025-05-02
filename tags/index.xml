@@ -16,17 +16,24 @@
       <description></description>
     </item>
     <item>
+      <title>Tech</title>
+      <link>/tags/tech/</link>
+      <pubDate>Thu, 10 Oct 2024 13:56:10 +0530</pubDate>
+      <guid>/tags/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Misc</title>
+      <link>/tags/misc/</link>
+      <pubDate>Sun, 02 Jun 2024 17:42:07 +0530</pubDate>
+      <guid>/tags/misc/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Personal</title>
       <link>/tags/personal/</link>
       <pubDate>Sat, 30 Dec 2023 16:18:25 +0530</pubDate>
       <guid>/tags/personal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tech</title>
-      <link>/tags/tech/</link>
-      <pubDate>Sat, 30 Dec 2023 16:18:25 +0530</pubDate>
-      <guid>/tags/tech/</guid>
       <description></description>
     </item>
   </channel>

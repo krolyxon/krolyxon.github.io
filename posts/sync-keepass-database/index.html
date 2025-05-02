@@ -6,8 +6,7 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Introduction to keepass Everyone should use password managers, because remembering unique passwords is difficult. There are many great password FOSS password managers such as bitwarden, keepass, keepassxc etc. I wouldnt recommend using bitwarden because its cloud based, Your password database is being stored in cloud, and it makes me really paranoid. because there are thousands of users using it, so a lot of hackers trying to hack bitwarden&rsquo;s server. bitwarden allows you to self-host it, so you can host it in your own server.
-" />
+<meta name="description" content="My stubbornness for not using Syncthing for syncing my KeePass database has gotten me into this, lets see how to sync it using rsync" />
 <meta name="keywords" content="[krolyxon blogs tech]" />
 
   <meta name="robots" content="noodp" />
@@ -79,8 +78,7 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Syncing keepass database between android and desktop with rsync">
-<meta property="og:description" content="Introduction to keepass Everyone should use password managers, because remembering unique passwords is difficult. There are many great password FOSS password managers such as bitwarden, keepass, keepassxc etc. I wouldnt recommend using bitwarden because its cloud based, Your password database is being stored in cloud, and it makes me really paranoid. because there are thousands of users using it, so a lot of hackers trying to hack bitwarden&rsquo;s server. bitwarden allows you to self-host it, so you can host it in your own server.
-" />
+<meta property="og:description" content="My stubbornness for not using Syncthing for syncing my KeePass database has gotten me into this, lets see how to sync it using rsync" />
 <meta property="og:url" content="/posts/sync-keepass-database/" />
 <meta property="og:site_name" content="Krolyxon&#39;s site" />
 
@@ -188,6 +186,12 @@
   <div class="post-meta"><time class="post-date">2022-09-18&nbsp;[Updated:  2022-09-18]</time></div>
 
   
+    <span class="post-tags">
+      
+      #<a href="/tags/tech/">tech</a>&nbsp;
+      
+    </span>
+  
   
 
 
@@ -224,7 +228,7 @@ To access your encrypted password database from your cellphone.</p>
 <li>get your local ip adress of your cellphone by running <code>ifconfig</code></li>
 </ol>
 <p>Once you are done with that, go to the terminal on your desktop and run this command:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">rsync -vrP --delete --rsh<span class="o">=</span><span class="s1">&#39;ssh -p 8022&#39;</span> ~/passdb/on/desktop.kbdx username@ip:passdb/on/cellphone.kbdx 
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">rsync -vrP --delete --rsh<span class="o">=</span><span class="s1">&#39;ssh -p 8022&#39;</span> ~/passdb/on/desktop.kbdx username@ip:passdb/on/cellphone.kbdx
 </span></span></code></pre></div><p>here i specify the port with <code>--rsh='ssh -p 8022'</code> because specifying it with <code>--port</code> flag didng work for me.
 repace your username with your username and local ip adress of termux in <code>username@ip</code>.
 and repace the paths in the commands to where your password database is stored in your desktop and cellphone.
@@ -233,7 +237,7 @@ and here we go, it will sync the database.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/sh
 </span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="c1"># paths of database file locations in android and desktop</span>
 </span></span><span class="line"><span class="cl"><span class="nv">anpath</span><span class="o">=</span><span class="s2">&#34;storage/shared/path/to/pass-database.kdbx&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nv">deskpath</span><span class="o">=</span><span class="s2">&#34;path/to/pass-database.kdbx&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="nv">deskpath</span><span class="o">=</span><span class="s2">&#34;path/to/pass-database.kdbx&#34;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># getting last modified date</span>
 </span></span><span class="line"><span class="cl"><span class="nv">desktop</span><span class="o">=</span><span class="k">$(</span>stat -c%Y <span class="nv">$deskpath</span><span class="k">)</span>
@@ -244,7 +248,7 @@ and here we go, it will sync the database.</p>
 </span></span><span class="line"><span class="cl"><span class="c1"># not syncing anything if there was no change.</span>
 </span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> <span class="nv">$android</span> -lt <span class="nv">$desktop</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
 </span></span><span class="line"><span class="cl">  <span class="nb">echo</span> <span class="s2">&#34;transferring from desktop to android&#34;</span>
-</span></span><span class="line"><span class="cl">  rsync -vrtP <span class="nv">$deskpath</span> android:<span class="nv">$anpath</span> 
+</span></span><span class="line"><span class="cl">  rsync -vrtP <span class="nv">$deskpath</span> android:<span class="nv">$anpath</span>
 </span></span><span class="line"><span class="cl"><span class="k">elif</span> <span class="o">[</span> <span class="nv">$desktop</span> -lt <span class="nv">$android</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
 </span></span><span class="line"><span class="cl">  <span class="nb">echo</span> <span class="s2">&#34;transferring from android to desktop&#34;</span>
 </span></span><span class="line"><span class="cl">  rsync -vrtP android:<span class="nv">$anpath</span> <span class="nv">$deskpath</span>
